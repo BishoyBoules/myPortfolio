@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { FaGithubSquare } from 'react-icons/fa'
 import { HiDownload } from 'react-icons/hi'
-import me from '../public/me.png'
+import me from '@/public/me.png'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
 import { useActiveSectionContext } from '@/context/active-section-context'
@@ -31,7 +31,7 @@ export default function Intro () {
             }}
           >
             <Image
-              src='../public/me.png'
+              src={me}
               alt="Bishoy's photo"
               priority={true}
               className='h-28 w-28 rounded-full object-cover border-[0.3rem] border-white shadow-xl'
