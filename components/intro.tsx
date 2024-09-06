@@ -31,7 +31,7 @@ export default function Intro () {
             }}
           >
             <Image
-              src={me}
+              src='../public/me.png'
               alt="Bishoy's photo"
               priority={true}
               className='h-28 w-28 rounded-full object-cover border-[0.3rem] border-white shadow-xl'
