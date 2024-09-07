@@ -39,7 +39,11 @@ export default function Project ({
           </p>
           <p>
             You can visit this website{' '}
-            <a target='_blank' className='underline text-blue-800' href={link}>
+            <a
+              target='_blank'
+              className='underline text-blue-800 dark:text-blue-300'
+              href={link}
+            >
               here
             </a>
             .

@@ -5,6 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu'
 import pic1 from '@/public/pic1.png'
 import pic2 from '@/public/pic2.png'
 import pic3 from '@/public/pic3.png'
+import pic4 from '@/public/pic4.png'
 
 export const links = [
   {
@@ -108,6 +109,14 @@ export const projectsData = [
     tags: ['JavaScript', 'HTMl', 'Bootstrap'],
     imageUrl: pic3,
     link: 'https://bishoyboules.github.io/justCoffee'
+  },
+  {
+    title: 'Tab Cash',
+    description:
+      'I have developed a fintech web app using React.js, Next.js and sass',
+    tags: ['React', 'Next.js', 'sass'],
+    imageUrl: pic4,
+    link: 'https://tapcash-ten.vercel.app/'
   }
 ] as const
 
