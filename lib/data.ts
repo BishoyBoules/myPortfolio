@@ -133,5 +133,6 @@ export const skillsData = [
   'Tailwind',
   'Bootstrap',
   'Restful Apis',
+  'GraphQL Apis',
   'Framer Motion'
 ] as const
