@@ -141,5 +141,8 @@ export const skillsData = [
   'Bootstrap',
   'Restful Apis',
   'GraphQL Apis',
-  'Framer Motion'
+  'Framer Motion',
+'Micro-Frontend',
+'Single-SPA',
+'Ant design'
 ] as const
