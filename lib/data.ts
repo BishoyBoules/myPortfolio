@@ -82,7 +82,14 @@ export const experiencesData = [
       'Developed the frontend of Saudi Arabia Digital Government website using HTML, CSS and React. Used Tailwind framework for styling.',
     icon: React.createElement(FaReact),
     date: 'Dec 2023 - Aug 2024'
-  }
+  },
+{
+title: 'React Developer',
+location: 'Exacall',
+description: 'Developed the frontends of telecom companies websites using Micro-frontends (Single-SPA), React, Tailwind and Ant design',
+icon: React.createElement(FaReact),
+date: 'Nov 2024 - Feb 2025'
+}
 ] as const
 
 export const projectsData = [
